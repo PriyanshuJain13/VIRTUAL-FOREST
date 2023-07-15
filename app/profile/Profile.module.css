@@ -1,0 +1,170 @@
+.forestImg {
+  height: 20rem;
+}
+
+.profile {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+}
+
+.left {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.profileBox {
+  display: flex;
+  width: 15.75rem;
+  height: 29.1875rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10.34375rem 10.34375rem 0rem 0rem;
+  border: 2px solid rgba(36, 39, 96, 0.31);
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  line-height: 40px;
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+.dp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dpImage{
+  border:10px solid #224e34;
+  border-radius: 5000px;
+}
+
+.profileBox h3 {
+  color: #224e34;
+  font-size: 1.5em;
+}
+.profileBox h2 {
+  color: #544c4c;
+  font-size: 1em;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+}
+
+.level {
+  margin: 10px;
+}
+
+.right {
+  width: 60%;
+}
+
+.headings {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.active{
+  color: #224e34;
+  font-size: 1.2em;
+  text-decoration: underline;
+}
+
+.inactive{
+  color: #9B9494;;
+  font-size: 1.2em;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+
+} 
+
+.card1{
+  width: 30%;
+  height: 8rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: #CEE963;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+}
+.card2{
+  width: 30%;
+  height: 8rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: #A7F3D0;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+}
+.card3{
+  width: 30%;
+  height: 8rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: #AAED81;
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+}
+
+.cardText{
+  margin-right: 10px;
+}
+
+.cardText h4{
+  font-size: 1.2em;
+}
+
+.cardText h4{
+
+}
+
+.leaf{
+  max-width: 40%;
+  max-height: 40%;
+  background: white;
+  border-radius: 10px;
+  padding: 2px;
+}
+@media only screen and (max-width: 800px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .profileBox{
+    margin-bottom: 10px;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .headings{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .active{
+    margin-right: 10px;
+  }
+  .inactive{
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,29 @@
+.map{
+    position: relative;
+}
+
+.toggleMap{
+    width: 6rem;
+    height: 1.5rem;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}
+.toggleBtn1{
+    border-right: 1px solid black;
+    background: #D9D9D9;
+    font-size: 0.5em;
+    padding: 3px;
+    border-radius: 10px 0px 0px 10px;
+}
+.toggleBtn{
+    font-size: 0.5em;
+    background: #75D63A;
+    padding: 3px;
+    border-radius: 0px 10px 10px 0px;
+}

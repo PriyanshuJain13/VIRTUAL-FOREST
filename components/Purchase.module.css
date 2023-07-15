@@ -1,0 +1,79 @@
+.purchaseSection{
+    height: 7rem;
+    background: #DEF7E3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.items div{
+    margin-right: 10px;
+}
+
+.cardTop{
+    display: flex;
+    flex-direction: row;
+}
+
+.cardBottom{
+    display: flex;
+    flex-direction: row;
+}
+
+.buySection{
+    height: 80%;
+    background: #75D63A;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.buySection h4{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.buySection p{
+    font-size: 0.6em;
+
+}
+
+.purchaseSection h5{
+    font-size: 0.8em;
+    color: grey;
+}
+
+.buysell{
+    display: flex;
+    align-items: center;
+
+}
+
+.buyBtn{
+    background: #00A642;
+    
+    padding: 0.4rem;
+    border-radius: 8px;
+    color: white;
+    width: 50%;
+    font-size: 0.7em;
+    margin-right: 5px;
+}
+
+.adBtn{
+    background: #3D4917;
+    padding: 0.4rem;
+    border-radius: 8px;
+    color: white;
+    width: 5rem;
+    font-size: 0.6em;
+
+}

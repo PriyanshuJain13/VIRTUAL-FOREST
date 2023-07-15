@@ -1,0 +1,136 @@
+.faq {
+  background: #cee963;
+  padding: 2rem;
+}
+
+.heading {
+  font-weight: bolder;
+  font-size: 2em;
+  margin-left: 10%;
+}
+
+.faqContainer {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.faqCard {
+  max-width: 40%;
+  min-width: 40%;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: var(--neutral-100, #fff);
+  box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.06);
+  margin: 10px;
+}
+
+.faqQues {
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+
+.topCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.greyBtn {
+  background: gainsboro;
+  align-items: center;
+  height: 10%;
+  padding: 10px;
+  border-radius: 10px;
+}
+.greenBtn {
+  background: green;
+  align-items: center;
+  height: 10%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+
+.greenBtn {
+  background: green;
+}
+
+.none{
+    display: none;
+}
+
+.faqBody{
+    margin-left: 8px;
+  margin-right: 8px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  text-align: left;
+  color: #6F6C90;
+  font-size: 0.8em;
+  /* max-width: 50%; */
+}
+
+.faqBody1{
+    margin-left: 8px;
+  margin-right: 8px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  text-align: left;
+  color: #6F6C90;
+  font-size: 0.8em;
+  /* max-width: 50%; */
+}
+.faqBody2{
+    margin-left: 8px;
+  margin-right: 8px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  text-align: left;
+  color: #6F6C90;
+  font-size: 0.8em;
+  /* max-width: 50%; */
+}
+.faqBody3{
+    margin-left: 8px;
+  margin-right: 8px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  text-align: left;
+  color: #6F6C90;
+  font-size: 0.8em;
+  /* max-width: 50%; */
+}
+.faqBody4{
+    margin-left: 8px;
+  margin-right: 8px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  text-align: left;
+  color: #6F6C90;
+  font-size: 0.8em;
+  /* max-width: 50%; */
+}
+.faqBody5{
+    margin-left: 8px;
+  margin-right: 8px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.6s ease;
+  text-align: left;
+  color: #6F6C90;
+  font-size: 0.8em;
+  /* max-width: 50%; */
+}

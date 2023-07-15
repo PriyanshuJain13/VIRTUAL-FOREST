@@ -1,0 +1,50 @@
+.about{
+    padding: 5%;
+}
+
+.about h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.banners{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner1{
+    display: flex;
+    margin: 20px;
+}
+
+.textArea{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.about h2{
+    font-size: 2em;
+}
+
+.about p{
+    font-size: 1em;
+}
+
+.collage{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.p3{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.p4{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
